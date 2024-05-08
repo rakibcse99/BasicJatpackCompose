@@ -26,15 +26,8 @@ class MainActivity : ComponentActivity() {
 }
 
 
-@Preview(showBackground = true, heightDp = 100, widthDp = 100)
-@Composable
-fun GreetingPreview() {
-    Text(text = "hello rakib")
-}
-
-
 @Preview(showBackground = true)
 @Composable
-fun Second() {
+private fun Second() {
     Text(text = "hello", fontStyle =FontStyle.Italic, color = Color.Red, textAlign = TextAlign.Center )
 }
